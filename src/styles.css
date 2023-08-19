@@ -1,0 +1,7 @@
+:root {
+    --Off-black: hsl(234, 58%, 5%);
+}
+
+body {
+    background-color: var(--Off-black);
+}
