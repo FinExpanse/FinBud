@@ -1,8 +1,46 @@
 :root {
     --Off-black: hsl(234, 58%, 5%);
     --White: hsl(0, 0%, 100%);
-}
-
-body {
+  }
+  
+  body {
     background-color: var(--White);
-}
+  }
+  
+  .NavBarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Off-black);
+    color: var(White);
+    padding: 10px;
+  }
+  
+  .NavBarContainer .Logo {
+    margin: 0;
+  }
+  
+  .NavBarContainer .NavLinks {
+    display: flex;
+  }
+  
+  .NavBarContainer .NavLinks a {
+    margin-left: 15px;
+    color: var(--White);
+    text-decoration: none;
+  }
+  
+  .ExpensesInput div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .ExpensesInput input {
+    margin-top: 10px;
+  }
+  
+  .ExpensesInput button {
+    margin-top: 10px;
+  }
