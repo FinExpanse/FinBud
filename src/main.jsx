@@ -6,7 +6,6 @@ import react_React from "react";
 import { Component as react_ReactComponentOf } from "react";
 import react_ReactDOM from "react-dom";
 import react_ReactDOMClient from "react-dom/client";
-import { Styled as styled_Styled } from "./components/Styled";
 ;var $global = typeof window != "undefined" ? window : typeof global != "undefined" ? global : typeof self != "undefined" ? self : this;
 function Main_main() {
 	let root = react_ReactDOMClient.createRoot(window.document.getElementById("root"));
